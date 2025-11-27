@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   scout-collector:
   - apiVersion: v2
-    appVersion: 0.5.5
-    created: '2025-10-29T14:50:55.386032656Z'
+    appVersion: 0.5.6
+    created: '2025-11-27T06:45:01.110495515Z'
     dependencies:
     - alias: agent-collector
       condition: scout.agent.enabled
@@ -16,7 +16,28 @@ entries:
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
       version: 0.129.0
     description: A Helm chart for Scout Collector for Kubernetes
-    digest: da4dab9284c5f0e1868db833a2738bc7dc0c216351b96767635f84d197fc5e27
+    digest: 84b65cfdfc85e420e3e0274beef59c8fd2f14f15c3f1f7d93202d74db4a33cdc
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.5.6/scout-collector-0.5.6.tgz
+    version: 0.5.6
+  - apiVersion: v2
+    appVersion: 0.5.5
+    created: '2025-11-26T16:15:26.997398806Z'
+    dependencies:
+    - alias: agent-collector
+      condition: scout.agent.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    - alias: daemon-collector
+      condition: scout.daemon.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: bedbcf874edcc509502dd59239d9c20c803728e8f2c713a5a462090928f604bc
     name: scout-collector
     type: application
     urls:
@@ -482,4 +503,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.1.1/scout-collector-0.1.1.tgz
     version: 0.1.1
-generated: '2025-10-30T08:23:26.210482+00:00'
+generated: '2025-11-27T08:34:28.071577+00:00'
