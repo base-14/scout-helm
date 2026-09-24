@@ -3,6 +3,36 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
+    created: '2026-09-24T06:22:23.896720+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: c04568f1d54fb7017c5ef7104708a81379fc9c029353ec4a5d586d7ed27894f6
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.0/scout-collector-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-09-24T06:22:23.896720+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: b223c0bfdbadec7891712ac4cbdb251b6762a19a31adab895a0b7a41ebf15e17
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.5.11/scout-collector-0.5.11.tgz
+    version: 0.5.11
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-09-24T06:22:23.896720+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: fb18adf15de376b15f98ad3ecec21393d568e3364de198db972b33e2702a8e5b
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.5.10/scout-collector-0.5.10.tgz
+    version: 0.5.10
+  - apiVersion: v2
+    appVersion: 0.5.9
     created: '2026-09-04T03:36:23.747674092Z'
     dependencies:
     - alias: agent-collector
@@ -566,4 +596,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.1.1/scout-collector-0.1.1.tgz
     version: 0.1.1
-generated: '2026-09-04T10:17:30.758032+00:00'
+generated: '2026-09-24T06:22:23.896720+00:00'
