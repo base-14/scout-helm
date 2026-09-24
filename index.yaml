@@ -3,6 +3,16 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
+    created: '2026-09-24T09:01:58.902548+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: d15318344db06cc28da6fec1a178b2fbc70bb8e32a12206f0a1f8e35f4116975
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.1/scout-collector-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
+    appVersion: 0.5.9
     created: '2026-09-24T06:22:23.896720+00:00'
     description: A Helm chart for Scout Collector for Kubernetes
     digest: c04568f1d54fb7017c5ef7104708a81379fc9c029353ec4a5d586d7ed27894f6
@@ -596,4 +606,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.1.1/scout-collector-0.1.1.tgz
     version: 0.1.1
-generated: '2026-09-24T06:22:23.896720+00:00'
+generated: '2026-09-24T09:01:58.902548+00:00'
