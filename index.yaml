@@ -3,6 +3,46 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
+    created: '2026-09-28T13:02:27.250161+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 64d36017cdfd30c9c50f3d55d216c6cecd4e27764a1801f7c42abc4c1dbc3c68
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.5/scout-collector-0.6.5.tgz
+    version: 0.6.5
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-09-28T13:02:27.250161+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 2bc31d5a6cc161ab3b5409a6382a6b672a410351a93d98e7801de7873df061cc
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.4/scout-collector-0.6.4.tgz
+    version: 0.6.4
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-09-28T13:02:27.250161+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 5da2d8d75f9b2ac620b5541615284454571c40f495c24f039d2b3354e1ee3e43
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.3/scout-collector-0.6.3.tgz
+    version: 0.6.3
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-09-28T13:02:27.250161+00:00'
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 20f7c9519cb828fdd0fa559a556955b0f2a1f97620b2f4bc823ec4cd6b675280
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.6.2/scout-collector-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
+    appVersion: 0.5.9
     created: '2026-09-24T09:01:58.902548+00:00'
     description: A Helm chart for Scout Collector for Kubernetes
     digest: d15318344db06cc28da6fec1a178b2fbc70bb8e32a12206f0a1f8e35f4116975
@@ -606,4 +646,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.1.1/scout-collector-0.1.1.tgz
     version: 0.1.1
-generated: '2026-09-24T09:01:58.902548+00:00'
+generated: '2026-09-28T13:02:27.250161+00:00'
