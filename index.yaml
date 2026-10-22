@@ -3,10 +3,10 @@ entries:
   aws-radar:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: '2026-10-22T14:38:32.561685673Z'
+    created: '2026-10-22T19:44:41.252745637Z'
     description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
       monitoring agent that collects resource counts and exposes Prometheus metrics
-    digest: 76e62be72249a586b349ce996cd09375315fe5581e6200ecb77c41308a6809bf
+    digest: e5076aa30474179b40e775a20f16dad0eacd3d2a7127c0e4088c20704a33de03
     home: https://github.com/base-14/base14
     keywords:
     - aws
@@ -24,6 +24,27 @@ entries:
     - https://github.com/base-14/scout-helm/releases/download/aws-radar-0.1.0/aws-radar-0.1.0.tgz
     version: 0.1.0
   scout-collector:
+  - apiVersion: v2
+    appVersion: 0.5.9
+    created: '2026-10-22T19:44:41.274060215Z'
+    dependencies:
+    - alias: agent-collector
+      condition: scout.agent.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    - alias: daemon-collector
+      condition: scout.daemon.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 08494636b2ad3484135169f157a9a4be4564aa381d41d6629d8ba587dc74735f
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.8.1/scout-collector-0.8.1.tgz
+    version: 0.8.1
   - apiVersion: v2
     appVersion: 0.5.9
     created: '2026-10-22T14:38:32.584601104Z'
@@ -958,10 +979,10 @@ entries:
   scout-operator:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: '2026-10-22T14:38:32.595773799Z'
+    created: '2026-10-22T19:44:41.283872818Z'
     description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
       \ resources into supervised or direct OpenTelemetry Collector workloads"
-    digest: d75a8d46b31d212708f89cf842bbe83f8711ce824099334de3f292675be2af06
+    digest: e979b1aba09785a6f11be8ab6b2f7d5c0d0a48574474de327817bfab38952d3b
     name: scout-operator
     type: application
     urls:
@@ -989,4 +1010,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-22T17:45:28.829110+00:00'
+generated: '2026-10-22T19:46:00.168947+00:00'
