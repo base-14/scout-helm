@@ -3,10 +3,10 @@ entries:
   aws-radar:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: '2026-10-22T06:07:24.713737007Z'
+    created: '2026-10-22T07:16:14.565771041Z'
     description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
       monitoring agent that collects resource counts and exposes Prometheus metrics
-    digest: a7fa1645af610f0620a1ca7dfadf47e8446619791f2b840dd8e2ee3c76560780
+    digest: 346961676eecc79b27135d15e4ecb020dbe532832853067a59e4433054cfabc5
     home: https://github.com/base-14/base14
     keywords:
     - aws
@@ -934,4 +934,27 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.1.1/scout-collector-0.1.1.tgz
     version: 0.1.1
-generated: '2026-10-22T06:42:50.877709+00:00'
+  scout-operator:
+  - apiVersion: v2
+    appVersion: 0.1.5
+    created: '2026-10-22T07:16:14.594038786Z'
+    description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
+      \ resources into supervised or direct OpenTelemetry Collector workloads"
+    digest: 1b5844e625db5f5e822168a14f8cc07cc7dac7a3e4a932a16f17e5bd166c1fa3
+    name: scout-operator
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.1/scout-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.4
+    created: '2026-10-22T06:03:50.305526823Z'
+    description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
+      \ resources into supervised or direct OpenTelemetry Collector workloads"
+    digest: 10e57e91af092b8effcb553e79d1683f19446ccbf300695975e2f0ac3127d25d
+    name: scout-operator
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
+    version: 0.1.0
+generated: '2026-10-22T07:59:08.831289+00:00'
