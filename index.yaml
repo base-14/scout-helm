@@ -26,6 +26,27 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
+    created: '2026-10-23T06:02:30.326893099Z'
+    dependencies:
+    - alias: agent-collector
+      condition: scout.agent.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    - alias: daemon-collector
+      condition: scout.daemon.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 7c7bf7e6117b796369740a1093bcb0668b911dd06bd649d79fc62b138c75a13e
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.9.0/scout-collector-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 0.5.9
     created: '2026-10-22T20:02:01.408491439Z'
     dependencies:
     - alias: agent-collector
@@ -999,6 +1020,17 @@ entries:
     version: 0.1.1
   scout-operator:
   - apiVersion: v2
+    appVersion: 0.1.7
+    created: '2026-10-23T06:02:30.340007941Z'
+    description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
+      \ resources into supervised or direct OpenTelemetry Collector workloads"
+    digest: 21545f4776a49056e1ddc5c2381e4a3be298ed43a902a80ceedd1ca86e6612c4
+    name: scout-operator
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.3/scout-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.6
     created: '2026-10-22T19:44:41.283872818Z'
     description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
@@ -1031,4 +1063,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-22T20:04:49.805315+00:00'
+generated: '2026-10-23T07:46:22.183245+00:00'
