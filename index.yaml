@@ -3,6 +3,28 @@ entries:
   aws-radar:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: '2026-10-28T08:30:10.709077566Z'
+    description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
+      monitoring agent that collects resource counts and exposes Prometheus metrics
+    digest: c267fd11d984ade31d570164fee8da18d4afaf05f11575a267653cb64a8ced86
+    home: https://github.com/base-14/base14
+    keywords:
+    - aws
+    - monitoring
+    - prometheus
+    - metrics
+    - cloud
+    - infrastructure
+    kubeVersion: '>=1.19.0-0'
+    name: aws-radar
+    sources:
+    - https://github.com/base-14/base14/tree/main/apps/aws-radar
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/aws-radar-0.1.1/aws-radar-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: '2026-10-22T19:44:41.252745637Z'
     description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
       monitoring agent that collects resource counts and exposes Prometheus metrics
@@ -26,7 +48,7 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
-    created: '2026-10-27T08:43:22.419655794Z'
+    created: '2026-10-28T08:30:10.735583607Z'
     dependencies:
     - alias: agent-collector
       condition: scout.agent.enabled
@@ -39,7 +61,7 @@ entries:
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
       version: 0.129.0
     description: A Helm chart for Scout Collector for Kubernetes
-    digest: 555385806855970e60fe99ad9dd8d64426f9150482d6b65d8022e5a6aeef107a
+    digest: aa916aad516283172570e17d91b74cd93c43cf16f178f50b1a48b21672f3d730
     name: scout-collector
     type: application
     urls:
@@ -1042,10 +1064,10 @@ entries:
   scout-operator:
   - apiVersion: v2
     appVersion: 0.1.9
-    created: '2026-10-27T08:43:22.435095414Z'
+    created: '2026-10-28T08:30:10.747840951Z'
     description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
       \ resources into supervised or direct OpenTelemetry Collector workloads"
-    digest: 6b8a3d559aa89fc0276f73882507919e7cd6ef75c8e424b47c1c4d97063c39dd
+    digest: fbda3c3831e112a997c313480c4b4d8b029197170c8e41392974c7284cd8afb3
     name: scout-operator
     type: application
     urls:
@@ -1106,4 +1128,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-27T08:47:32.725027+00:00'
+generated: '2026-10-28T08:33:22.485083+00:00'
