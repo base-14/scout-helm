@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   aws-radar:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: '2026-10-31T15:56:10.545790894Z'
+    description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
+      monitoring agent that collects resource counts and exposes Prometheus metrics
+    digest: 8a681237a5e9ae20d7c09a4c84ef50344c38d2a392945afcd7bb2acd6c8d1a85
+    home: https://github.com/base-14/base14
+    keywords:
+    - aws
+    - monitoring
+    - prometheus
+    - metrics
+    - cloud
+    - infrastructure
+    kubeVersion: '>=1.19.0-0'
+    name: aws-radar
+    sources:
+    - https://github.com/base-14/base14/tree/main/apps/aws-radar
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/aws-radar-0.1.3/aws-radar-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.1
     created: '2026-10-29T19:49:17.328062836Z'
     description: A Helm chart for deploying AWS Radar - a lightweight AWS resource
@@ -1299,4 +1321,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-30T08:47:00.848715+00:00'
+generated: '2026-10-31T16:01:38.259126+00:00'
