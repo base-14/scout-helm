@@ -92,6 +92,27 @@ entries:
   scout-collector:
   - apiVersion: v2
     appVersion: 0.5.9
+    created: '2026-11-02T10:42:58.613852949Z'
+    dependencies:
+    - alias: agent-collector
+      condition: scout.agent.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    - alias: daemon-collector
+      condition: scout.daemon.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    description: A Helm chart for Scout Collector for Kubernetes
+    digest: 387f26aa02bfb598995c6f0a5f9f0bfb7f24b957f21c912d62db211756844bb4
+    name: scout-collector
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-collector-0.11.0/scout-collector-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    appVersion: 0.5.9
     created: '2026-10-30T08:26:28.519255915Z'
     dependencies:
     - alias: agent-collector
@@ -1213,10 +1234,10 @@ entries:
   scout-operator:
   - apiVersion: v2
     appVersion: 0.1.14
-    created: '2026-11-02T06:12:45.987178776Z'
+    created: '2026-11-02T10:42:58.632112369Z'
     description: "A Helm chart for Scout Operator \u2014 reconciles ScoutCollector\
       \ resources into supervised or direct OpenTelemetry Collector workloads"
-    digest: ae55ead8352f34a287ea8d5bc821f9cb8806a3a74508fea86c48794fe6d295b2
+    digest: 64bab51ac5d163ee4925e544a4279682554ef97035a0c2227f5b86e6fcdfedf0
     name: scout-operator
     type: application
     urls:
@@ -1343,4 +1364,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-11-02T06:17:37.226397+00:00'
+generated: '2026-11-02T15:02:27.169745+00:00'
