@@ -1233,11 +1233,22 @@ entries:
     version: 0.1.1
   scout-operator:
   - apiVersion: v2
+    appVersion: 0.1.16
+    created: '2026-11-04T09:15:35.73916734Z'
+    description: "A Helm chart for Scout Operator \u2014 full-cluster presets, supervised\
+      \ collectors, and OpenTelemetry auto-instrumentation"
+    digest: cff69080b1826b53c18b347a9e55a52f04df57db7818088b4b975f02939835bf
+    name: scout-operator
+    type: application
+    urls:
+    - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.13/scout-operator-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
     appVersion: 0.1.15
     created: '2026-11-03T13:37:59.568644953Z'
     description: "A Helm chart for Scout Operator \u2014 full-cluster presets, supervised\
       \ collectors, and OpenTelemetry auto-instrumentation"
-    digest: cef4d964b57fe4f377c82fc9e1234270b0ebe561a58f03bf6473ff0ae1205504
+    digest: 812d2bdb16b26cf4925bc52bd25ca782a6a6542b4c55b9a5568ccf4ca80c2b7e
     name: scout-operator
     type: application
     urls:
@@ -1375,4 +1386,4 @@ entries:
     urls:
     - https://github.com/base-14/scout-helm/releases/download/scout-operator-0.1.0/scout-operator-0.1.0.tgz
     version: 0.1.0
-generated: '2026-11-03T13:41:14.074568+00:00'
+generated: '2026-11-04T09:21:18.910404+00:00'
